@@ -1,4 +1,4 @@
-# Open Development & Education - Evidence Library application
+# Caribbean Education Research Database application
 
 This application uses [Kerko] to provide a user-friendly search and browsing
 web interface for a bibliography managed with the [Zotero] reference manager.

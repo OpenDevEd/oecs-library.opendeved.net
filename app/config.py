@@ -38,7 +38,7 @@ class Config():
     KERKO_ZOTERO_LOCALE = 'en-GB'
 
     HOME_URL = 'https://oecs-library.opendeved.net'
-    HOME_TITLE = _("OECS Library")
+    HOME_TITLE = _("Caribbean Education Research Database")
     # HOME_SUBTITLE = _("...")
 
     ABOUT_URL = '#'
@@ -46,8 +46,8 @@ class Config():
     JOBS_URL = '#'
     PROGRAMMES_URL = '#'
 
-    NAV_TITLE = _("Evidence Library")
-    KERKO_TITLE = _("Evidence Library – OECS Library")
+    NAV_TITLE = _("Research Database")
+    KERKO_TITLE = _("Research Database")
 
     KERKO_PRINT_ITEM_LINK = True
     KERKO_PRINT_CITATIONS_LINK = True
@@ -151,105 +151,15 @@ class Config():
         )
     )
 
-    KERKO_COMPOSER.add_facet(
-        CollectionFacetSpec(
-            key='facet_subject',
-            filter_key='subject',
-            title=_('Subject'),
-            weight=10,
-            collection_key='3LHVXJWZ',
-        )
-    )
-
-    KERKO_COMPOSER.add_facet(
-        CollectionFacetSpec(
-            key='facet_grade',
-            filter_key='grade',
-            title=_('Grade'),
-            weight=20,
-            collection_key='QGE8SJ55',
-        )
-    )
-
-    KERKO_COMPOSER.add_facet(
-        CollectionFacetSpec(
-            key='facet_topic',
-            filter_key='topic',
-            title=_('Topic'),
-            weight=30,
-            collection_key='8E4YPYSU',
-        )
-    )
-
-    KERKO_COMPOSER.add_facet(
-        CollectionFacetSpec(
-            key='facet_objective',
-            filter_key='objective',
-            title=_('Objective'),
-            weight=40,
-            collection_key='JMAC385T',
-        )
-    )
-
-    KERKO_COMPOSER.add_facet(
-        CollectionFacetSpec(
-            key='facet_skill_level',
-            filter_key='skill_level',
-            title=_('Skill Level'),
-            weight=50,
-            collection_key='2HP52J6A',
-        )
-    )
-
-    KERKO_COMPOSER.add_facet(
-        CollectionFacetSpec(
-            key='facet_relevance',
-            filter_key='relevance',
-            title=_('Relevance'),
-            weight=60,
-            collection_key='4MSMV9MS',
-        )
-    )
-
-    KERKO_COMPOSER.add_facet(
-        CollectionFacetSpec(
-            key='facet_format',
-            filter_key='format',
-            title=_('Format'),
-            weight=70,
-            collection_key='UU5HGGJH',
-        )
-    )
-
-    KERKO_COMPOSER.add_facet(
-        CollectionFacetSpec(
-            key='facet_accessibility',
-            filter_key='accessibility',
-            title=_('Accessibility'),
-            weight=80,
-            collection_key='F75KBG7X',
-        )
-    )
-
-    KERKO_COMPOSER.add_facet(
-        CollectionFacetSpec(
-            key='facet_activity',
-            filter_key='activity',
-            title=_('Activity'),
-            weight=90,
-            collection_key='K2YH9M4M',
-        )
-    )
-
-    KERKO_COMPOSER.add_facet(
-        CollectionFacetSpec(
-            key='facet_language',
-            filter_key='language',
-            title=_('Language'),
-            weight=100,
-            collection_key='UX4CZIRV',
-        )
-    )
+    # KERKO_COMPOSER.add_facet(
+    #     CollectionFacetSpec(
+    #         key='facet_language',
+    #         filter_key='language',
+    #         title=_('Language'),
+    #         weight=10,
+    #         collection_key='UX4CZIRV',
+    #     )
+    # )
 
 
 class DevelopmentConfig(Config):
