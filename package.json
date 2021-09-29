@@ -1,7 +1,7 @@
 {
   "name": "opendeved-docs",
   "version": "1.0.0",
-  "description": "Open Development & Education Evidence Library",
+  "description": "Caribbean Education Research Database",
   "main": "",
   "scripts": {
     "postinstall": "node ./node_modules/frontend-dependencies/index.js",
